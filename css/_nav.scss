@@ -1,0 +1,23 @@
+header{
+	
+	span {
+		padding: 2%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		#menu {
+			width: 3em;
+		}
+		img{
+			width:50%;
+		}
+	}
+
+	.menuDesktop{
+		display:none;
+	}
+
+	.menu::after{
+		content:'Actualités';
+	}
+}

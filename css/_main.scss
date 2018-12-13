@@ -1,0 +1,52 @@
+section:first-child{
+	img{
+		width:30%;
+	}
+	article{
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+		margin:20px 0;
+		padding:;
+	}
+}
+.bgdot{
+	background:url('../img/svg/points.svg');
+}
+.presentation{
+	display:flex;
+	flex-wrap: wrap;
+
+	span{
+		width:49%;
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	img{
+		margin:0 auto;
+	}
+	p{
+		font-size: 1.4em;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.coop{
+		color: $marron;
+	}
+	.photov{
+		color: $vert;
+	}
+	.prod{
+		color: $jaune;
+	}
+	.capital{
+		color: $bleu;
+	}
+
+}
+h1{
+	text-align:center;
+	color: $jaune;
+}
