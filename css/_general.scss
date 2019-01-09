@@ -1,3 +1,5 @@
+/* ___________________________________Mon code_________________________________________________________________ */
+
 html, *{
   box-sizing: border-box;
   width: 100%;
@@ -11,6 +13,10 @@ a{
 section{
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 10px;
+	article {
+		margin-bottom:15px;
+	}
 }
 h2, h3{
 	color:$gris;
@@ -19,3 +25,16 @@ h2, h3{
 p{
 	color:$gris;
 }
+
+.btn{
+	background: $gris;
+	padding: 2%;
+	border-radius: 5px;
+	color:$white;
+	width:98%;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: bolder;
+}
+
+

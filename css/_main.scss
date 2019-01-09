@@ -7,7 +7,6 @@ section:first-child{
 		flex-direction: column;
 		align-items: center;
 		margin:20px 0;
-		padding:;
 	}
 }
 .bgdot{
@@ -49,4 +48,25 @@ section:first-child{
 h1{
 	text-align:center;
 	color: $jaune;
+	font-size: xx-large;
+	div{
+		font-size: x-large;
+	}
+}
+
+
+#articles{
+
+}
+#actualites{
+	background: $jaune;
+}
+
+#demarche{
+	background: $vert;
+}
+
+
+#temoignages{
+	background: $marron;
 }

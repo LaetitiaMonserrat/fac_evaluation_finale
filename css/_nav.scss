@@ -1,23 +1,66 @@
 header{
 	
-	span {
+	.unspan {
 		padding: 2%;
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
-		#menu {
-			width: 3em;
-		}
-		img{
-			width:50%;
-		}
+		
+		position:relative;
+	}
+	
+	.nav_menu {
+		position: absolute;
+		width: 150px;
+		right: -7px;
 	}
 
-	.menuDesktop{
+	.displayNone{
 		display:none;
 	}
 
-	.menu::after{
-		content:'Actualités';
+	.displayM{
+		display:flex;
 	}
+	.logo_site {
+		width: 250px;
+	}
+}
+
+#menu_principal{
+	position: relative;
+}
+
+#iconeMenu {
+	width: 40px;
+	position:absolute;
+	right: 0;
+}
+
+ul {
+	margin: 17px 0 0 0;
+	padding: 0;
+
+	li {
+		list-style:none;
+		display: flex;
+		flex-direction: column;
+		a {
+			color:inherit;
+			text-decoration:none;
+			padding: 4% 1%;
+			font-weight: bolder;
+			background: #91dc5a;
+			text-align: center;
+			margin:1px;
+			
+		}
+
+		:hover{
+			color: lighten(black, 70);
+		}
+	}
+}
+
+.souscrire{
+	background: #fabb00;
 }
