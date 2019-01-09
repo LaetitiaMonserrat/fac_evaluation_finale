@@ -344,6 +344,7 @@ section {
 
 section article {
   margin-bottom: 15px;
+  padding: 10px 0;
 }
 
 h2, h3 {
@@ -364,6 +365,10 @@ p {
   margin: 0 auto;
   text-align: center;
   font-weight: bolder;
+}
+
+.row {
+  display: flex;
 }
 
 header .unspan {
@@ -493,6 +498,19 @@ h1 div {
   font-size: x-large;
 }
 
+#articles h2 {
+  text-align: left;
+}
+
+#articles img {
+  width: 85%;
+}
+
+#articles p {
+  width: 90%;
+  margin: 0 0 0 5%;
+}
+
 #actualites {
   background: #fcb731;
 }
@@ -511,6 +529,12 @@ footer {
 
 footer aside img {
   width: 80px;
+}
+
+@media all and (min-width: 768px) {
+  .presentation {
+    flex-wrap: nowrap;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -56,7 +56,16 @@ h1{
 
 
 #articles{
-
+	h2{
+			text-align:left;
+		}
+		img{
+			width:85%;
+		}
+		p{
+			width: 90%;
+			margin: 0 0 0 5%;
+		}
 }
 #actualites{
 	background: $jaune;

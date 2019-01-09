@@ -16,6 +16,8 @@ section{
 	margin-bottom: 10px;
 	article {
 		margin-bottom:15px;
+		padding: 10px 0;
+
 	}
 }
 h2, h3{
@@ -37,4 +39,6 @@ p{
 	font-weight: bolder;
 }
 
-
+.row{
+	display: flex;
+}
