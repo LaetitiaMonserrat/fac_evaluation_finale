@@ -375,6 +375,7 @@ header .unspan {
   padding: 2%;
   display: flex;
   align-items: center;
+  width: 100%;
   position: relative;
 }
 
@@ -394,6 +395,10 @@ header .displayM {
 
 header .logo_site {
   width: 250px;
+}
+
+header .logo {
+  max-width: 270px;
 }
 
 #menu_principal {
@@ -531,9 +536,26 @@ footer aside img {
   width: 80px;
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 1200px) {
   .presentation {
     flex-wrap: nowrap;
+  }
+  #iconeMenu {
+    display: none;
+  }
+  #menu_principal {
+    display: flex;
+  }
+  header .nav_menu {
+    position: inherit;
+    width: 100%;
+  }
+  ul {
+    display: flex;
+    margin: 0;
+  }
+  ul li {
+    flex-direction: row;
   }
 }
 

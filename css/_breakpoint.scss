@@ -2,4 +2,25 @@
 	.presentation{
 		flex-wrap: nowrap;
 	}
+	#iconeMenu{
+		display: none;
+	}
+	#menu_principal{
+		display: flex;
+	}
+	header{
+		.nav_menu{
+			position: inherit;
+			width:100%;
+		}
+		
+	}
+	ul{
+		display:flex;
+		margin:0;
+		li{
+			flex-direction: row;
+		}
+	}
 }
+
